@@ -11,8 +11,6 @@ int pos180 = 512;
 
 Adafruit_PWMServoDriver servos = Adafruit_PWMServoDriver(0x40);
 
-
-
 void setup() {
     pinMode(JoyStick_X_1, INPUT);
     pinMode(JoyStick_Y_1, INPUT);
